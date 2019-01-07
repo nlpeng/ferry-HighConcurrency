@@ -2,8 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9235ed40-9e99-4538-aaf3-2445ca55ef32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CountDownLatchExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CountDownLatchExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CyclicBarrierExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CyclicBarrierExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CyclicBarrierExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/ForkJoinTaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/FutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/FutureTaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/cache/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/cache/GuavaCacheExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/cache/GuavaCacheExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/cache/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/cache/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/DateFormatExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/DateFormatExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/DateFormatExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/StringExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/StringExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/concurrent/ConcurrentHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/concurrent/ConcurrentSkipListMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/concurrent/ConcurrentSkipListSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/concurrent/CopyOnWriteArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/concurrent/CopyOnWriteArraySetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/deadLock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/hystrix/HystrixController1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/hystrix/HystrixController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/hystrix/HystrixController3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/immutable/ImmutableExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/immutable/ImmutableExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/immutable/ImmutableExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/publish/Escape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/publish/UnsafePublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/rateLimiter/RateLimiterExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/rateLimiter/RateLimiterExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/sync/SynchronizedExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/CollectionsExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/CollectionsExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/CollectionsExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/HashTableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/VectorExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/VectorExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/syncContainer/VectorExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadLocal/RequestHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadLocal/ThreadLocalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadPool/ThreadPoolExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadPool/ThreadPoolExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadPool/ThreadPoolExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadPool/ThreadPoolExample4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/concurrency_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/concurrency_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/concurrency/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,66 +143,116 @@
     <session id="-87779677">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="2" />
-          <entry key="md" value="1" />
+          <entry key="java" value="56" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="Markdown" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="56" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="17" />
-          <entry key="md" value="10" />
+          <entry key="java" value="555" />
+          <entry key="md" value="262" />
+          <entry key="properties" value="12" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="10" />
+          <entry key="JAVA" value="555" />
+          <entry key="Markdown" value="262" />
           <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Properties" value="12" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyApplication.java">
+        <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency/.gitignore">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CountDownLatchExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +266,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,8 +294,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/concurrency/.gitignore" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/annoations/NotThreadSafe.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/annoations/NotRecommed.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/TestController.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyTest.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample1.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample2.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample4.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample3.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample2.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample1.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample4.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample3.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample5.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample6.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample3.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpInterceptor.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpFilter.java" />
+        <option value="$PROJECT_DIR$/concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CountDownLatchExample1.java" />
       </list>
     </option>
   </component>
@@ -116,23 +326,40 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="73" />
+    <option name="y" value="24" />
+    <option name="width" value="1324" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,22 +372,90 @@
               <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
               <item name="concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ferry-HighConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferry-HighConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferry-HighConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferry-HighConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferry-HighConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferry-HighConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferry-HighConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="aqs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546072972727" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546832142016" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ferry.concurrency.example.count" />
+      <recent name="com.ferry.concurrency.annoations" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency" />
+      <recent name="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,7 +469,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CountExample3">
+    <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferry.concurrency.ConcurrencyTest" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferry.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferry.concurrency.example.count.CountExample2" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferry.concurrency.example.count.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferry.concurrency.example.count.CountExample3" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferry.concurrency.example.count.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConcurrencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="concurrency" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ferry.concurrency.ConcurrencyApplication" />
@@ -182,6 +516,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConcurrencyApplication" />
+      <item itemvalue="Application.ConcurrencyTest" />
+      <item itemvalue="Application.CountExample2" />
+      <item itemvalue="Application.CountExample3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountExample3" />
+        <item itemvalue="Application.CountExample2" />
+        <item itemvalue="Application.ConcurrencyTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -193,52 +540,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546071144983</updated>
-      <workItem from="1546071147730" duration="991000" />
+      <workItem from="1546071147730" duration="4696000" />
+      <workItem from="1546750952125" duration="5562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="991000" />
+    <option name="totallyTimeSpent" value="10258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5006196" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32939634" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,13 +595,268 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/concurrency/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/annoations/NotRecommed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/annoations/ThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/annoations/NotThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/annoations/Recommed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="193" column="1" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4-sources.jar!/lombok/extern/slf4j/XSlf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+          <folding>
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#4793#4794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="361" column="34" selection-start-line="361" selection-start-column="34" selection-end-line="361" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="330">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4-sources.jar!/lombok/extern/java/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/atomic/AtomicExample6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4-sources.jar!/lombok/extern/slf4j/Slf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="31" column="85" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample3.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/commonUnsafe/DateFormatExample2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample3.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/count/CountExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/singleton/SingletonExample1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/FutureTaskExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/concurrent/ConcurrentSkipListSetExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/lock/LockExample5.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/rateLimiter/RateLimiterExample1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -265,26 +867,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyApplication.java">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="440">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/.gitignore">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/HttpFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="434">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/ConcurrencyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/SemaphoreExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10-sources.jar!/lombok/extern/slf4j/Slf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/aqs/CountDownLatchExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>concurrency:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>concurrency</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
