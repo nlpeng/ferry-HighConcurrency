@@ -22,7 +22,7 @@ public class SemaphoreExample4 {
             final int threadNum = i;
             exec.execute(() -> {
                 try {
-                    if (semaphore.tryAcquire(5000, TimeUnit.MILLISECONDS)) { // 尝试获取一个许可
+                    if (semaphore.tryAcquire(5000, TimeUnit.MILLISECONDS)) { // 尝试获取一个许可 若在指定的时间内获取成功，则立即返回true，否则则立即返回false
                         test(threadNum);
                         semaphore.release(); // 释放一个许可
                     }

@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.commonUnsafe;
 
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;

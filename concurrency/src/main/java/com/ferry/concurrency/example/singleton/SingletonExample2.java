@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.singleton;
 
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.ThreadSafe;
 
 /**
  * 饿汉模式

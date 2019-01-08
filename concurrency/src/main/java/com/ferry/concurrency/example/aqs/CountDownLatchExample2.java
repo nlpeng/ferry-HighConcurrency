@@ -30,7 +30,7 @@ public class CountDownLatchExample2 {
                 }
             });
         }
-        countDownLatch.await(10, TimeUnit.MILLISECONDS);
+        countDownLatch.await(90, TimeUnit.MILLISECONDS);//和await()类似，只不过等待一定的时间后count值还没变为0的话就会继续执行
         log.info("finish");
         exec.shutdown();
     }

@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 @Slf4j
 public class CyclicBarrierExample1 {
 
-    private static CyclicBarrier barrier = new CyclicBarrier(5);
+    private static CyclicBarrier barrier = new CyclicBarrier(5);//让一组线程等待至某个状态之后再全部同时执行
 
     public static void main(String[] args) throws Exception {
 
@@ -32,7 +32,7 @@ public class CyclicBarrierExample1 {
     private static void race(int threadNum) throws Exception {
         Thread.sleep(1000);
         log.info("{} is ready", threadNum);
-        barrier.await();
+        barrier.await();//用来挂起当前线程，直至所有线程都到达barrier状态再同时执行后续任务
         log.info("{} continue", threadNum);
     }
 }

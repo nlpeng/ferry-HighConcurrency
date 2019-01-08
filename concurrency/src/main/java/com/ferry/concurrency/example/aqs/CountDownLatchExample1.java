@@ -15,7 +15,7 @@ public class CountDownLatchExample1 {
 
         ExecutorService exec = Executors.newCachedThreadPool();
 
-        final CountDownLatch countDownLatch = new CountDownLatch(threadCount);
+        final CountDownLatch countDownLatch = new CountDownLatch(threadCount);//类似一个计数器
 
         for (int i = 0; i < threadCount; i++) {
             final int threadNum = i;
@@ -25,11 +25,11 @@ public class CountDownLatchExample1 {
                 } catch (Exception e) {
                     log.error("exception", e);
                 } finally {
-                    countDownLatch.countDown();
+                    countDownLatch.countDown();//将count值减1
                 }
             });
         }
-        countDownLatch.await();
+        countDownLatch.await();//调用await()方法的线程会被挂起，它会等待直到count值为0才继续执行
         log.info("finish");
         exec.shutdown();
     }

@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.atomic;
 
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
@@ -19,7 +19,7 @@ public class AtomicExample3 {
     // 同时并发执行的线程数
     public static int threadTotal = 200;
 
-    public static LongAdder count = new LongAdder();
+    public static LongAdder count = new LongAdder();//
 
     public static void main(String[] args) throws Exception {
         ExecutorService executorService = Executors.newCachedThreadPool();

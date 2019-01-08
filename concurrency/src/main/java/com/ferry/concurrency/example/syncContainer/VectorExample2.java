@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.syncContainer;
 
-import com.mmall.concurrency.annoations.NotThreadSafe;
+import com.ferry.concurrency.annoations.NotThreadSafe;
 
 import java.util.Vector;
 

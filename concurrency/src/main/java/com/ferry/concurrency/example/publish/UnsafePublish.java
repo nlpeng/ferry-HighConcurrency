@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.publish;
 
-import com.mmall.concurrency.annoations.NotThreadSafe;
+import com.ferry.concurrency.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;

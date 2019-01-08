@@ -1,13 +1,13 @@
 package com.ferry.concurrency.example.singleton;
 
-import com.mmall.concurrency.annoations.Recommend;
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.Recommed;
+import com.ferry.concurrency.annoations.ThreadSafe;
 
 /**
  * 枚举模式：最安全
  */
 @ThreadSafe
-@Recommend
+@Recommed
 public class SingletonExample7 {
 
     // 私有构造函数

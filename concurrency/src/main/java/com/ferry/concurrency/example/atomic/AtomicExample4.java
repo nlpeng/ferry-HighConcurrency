@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.atomic;
 
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicReference;
 @ThreadSafe
 public class AtomicExample4 {
 
-    private static AtomicReference<Integer> count = new AtomicReference<>(0);
+    private static AtomicReference<Integer> count = new AtomicReference<>(0);//是一种替代对象引用的线程安全类
 
     public static void main(String[] args) {
         count.compareAndSet(0, 2); // 2

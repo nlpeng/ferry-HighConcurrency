@@ -1,12 +1,12 @@
 package com.ferry.concurrency.example.publish;
 
-import com.mmall.concurrency.annoations.NotRecommend;
-import com.mmall.concurrency.annoations.NotThreadSafe;
+import com.ferry.concurrency.annoations.NotRecommed;
+import com.ferry.concurrency.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NotThreadSafe
-@NotRecommend
+@NotRecommed
 public class Escape {
 
     private int thisCanBeEscape = 0;

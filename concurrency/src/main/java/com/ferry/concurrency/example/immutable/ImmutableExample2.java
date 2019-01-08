@@ -1,7 +1,7 @@
 package com.ferry.concurrency.example.immutable;
 
 import com.google.common.collect.Maps;
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collections;

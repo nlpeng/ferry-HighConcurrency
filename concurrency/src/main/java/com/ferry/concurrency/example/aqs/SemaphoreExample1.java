@@ -15,7 +15,7 @@ public class SemaphoreExample1 {
 
         ExecutorService exec = Executors.newCachedThreadPool();
 
-        final Semaphore semaphore = new Semaphore(3);
+        final Semaphore semaphore = new Semaphore(3);//信号量，即同时可以允许多少线程进行访问
 
         for (int i = 0; i < threadCount; i++) {
             final int threadNum = i;

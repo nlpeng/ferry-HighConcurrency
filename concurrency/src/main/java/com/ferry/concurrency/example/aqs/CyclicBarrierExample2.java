@@ -34,7 +34,7 @@ public class CyclicBarrierExample2 {
         Thread.sleep(1000);
         log.info("{} is ready", threadNum);
         try {
-            barrier.await(2000, TimeUnit.MILLISECONDS);
+            barrier.await(2000, TimeUnit.MILLISECONDS);//让这些线程等待至一定的时间，如果还有线程没有到达barrier状态就直接让到达barrier的线程执行后续任务
         } catch (Exception e) {
             log.warn("BarrierException", e);
         }

@@ -1,6 +1,6 @@
 package com.ferry.concurrency.example.atomic;
 
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.ferry.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @ThreadSafe
 public class AtomicExample6 {
 
-    private static AtomicBoolean isHappened = new AtomicBoolean(false);
+        private static AtomicBoolean isHappened = new AtomicBoolean(false);
 
     // 请求总数
     public static int clientTotal = 5000;
