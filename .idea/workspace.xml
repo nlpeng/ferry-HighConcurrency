@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9235ed40-9e99-4538-aaf3-2445ca55ef32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/image/20170610234636986.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/20170611002708717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/20170611091841253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/20170611211802727.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/20180419002550514.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/20180525151158224.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadPool/ThreadPoolExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/ferry/concurrency/example/threadPool/ThreadPoolExample1.java" afterDir="false" />
@@ -82,18 +88,12 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="452">
-                <caret line="385" column="6" selection-start-line="385" selection-start-column="6" selection-end-line="385" selection-end-column="6" />
+              <first_editor relative-caret-position="34">
+                <caret line="366" lean-forward="true" selection-start-line="366" selection-end-line="366" />
                 <folding>
                   <element signature="e#1#10#0" />
                   <element signature="e#11#25#0" />
                   <element signature="e#965#979#0" />
-                  <element signature="e#104#105#0" expanded="true" />
-                  <element signature="e#123#124#0" expanded="true" />
-                  <element signature="e#108#109#0" expanded="true" />
-                  <element signature="e#127#128#0" expanded="true" />
-                  <element signature="e#79#80#0" expanded="true" />
-                  <element signature="e#105#106#0" expanded="true" />
                   <element signature="e#15588#15599#0" />
                   <element signature="e#15719#15733#0" />
                   <element signature="e#16578#16592#0" />
@@ -421,7 +421,7 @@
     <property name="SearchEverywhereHistoryKey" value="addWorker&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor#addWorker" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547019284698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547019740937" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -562,7 +562,7 @@
       <workItem from="1546750952125" duration="5562000" />
       <workItem from="1546832186143" duration="8539000" />
       <workItem from="1546925543451" duration="12271000" />
-      <workItem from="1546996282539" duration="8707000" />
+      <workItem from="1546996282539" duration="9069000" />
     </task>
     <task id="LOCAL-00001" summary="1.1v 高并发编程">
       <created>1546832308970</created>
@@ -578,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546942879812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.1v 高并发编程">
+      <created>1547019342524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547019342524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39775000" />
+    <option name="totallyTimeSpent" value="40137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,18 +1046,12 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="452">
-            <caret line="385" column="6" selection-start-line="385" selection-start-column="6" selection-end-line="385" selection-end-column="6" />
+          <first_editor relative-caret-position="34">
+            <caret line="366" lean-forward="true" selection-start-line="366" selection-end-line="366" />
             <folding>
               <element signature="e#1#10#0" />
               <element signature="e#11#25#0" />
               <element signature="e#965#979#0" />
-              <element signature="e#104#105#0" expanded="true" />
-              <element signature="e#123#124#0" expanded="true" />
-              <element signature="e#108#109#0" expanded="true" />
-              <element signature="e#127#128#0" expanded="true" />
-              <element signature="e#79#80#0" expanded="true" />
-              <element signature="e#105#106#0" expanded="true" />
               <element signature="e#15588#15599#0" />
               <element signature="e#15719#15733#0" />
               <element signature="e#16578#16592#0" />
