@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 @Slf4j
 @NotThreadSafe
-public class UnsafePublish {
+public class UnsafePublish {//发布对象
 
     private String[] states = {"a", "b", "c"};
 

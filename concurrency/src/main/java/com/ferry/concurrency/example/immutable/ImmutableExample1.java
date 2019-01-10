@@ -10,8 +10,8 @@ import java.util.Map;
 @NotThreadSafe
 public class ImmutableExample1 {
 
-    private final static Integer a = 1;
-    private final static String b = "2";
+    private final static Integer a = 1;//基础数据类型
+    private final static String b = "2";//引用类型，不能指向另外一个对象
     private final static Map<Integer, Integer> map = Maps.newHashMap();
 
     static {

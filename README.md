@@ -377,48 +377,118 @@ public final int getAndAddInt(Object var1, long var2, int var4) {
 LongAdder在第一次cas失败的时候,并没有选择死循环,而是通过 以空间换时间 的方式提高了性能
 
 - synchronized 依赖jvm 
+   
+    synchronized可以修饰代码块|修饰方法|修饰静态方法|修饰类   
+
+    不可中断锁，适合竞争不激烈，可读性好
+    
 - Lock 依赖特殊的CPU
 
-      修饰代码块
-      修饰方法
-      修饰静态方法
-      修饰类
+    可中断锁，多样化同步，竞争激烈时候维持常态
+    
       
 ##2.2 可见性
 
+    导致共享变量在线程间不可见的原因
+    1.线程交叉执行
+    2.重排序结合线程交叉执行
+    3.共享变量更新后的值没在工作内存或主存间及时更新
+    
+- **synchronized**
+
+- **volatile**
+    作为状态标示量
+
 ##2.3 有序性
+
+- **happens-before**
 
 #第三章 安全发布对象
 ##3.1 发布与溢出
+ - 发布对象：使一个对象能够被当前范围之外的代码所使用
+
+ - 对象溢出：一种错误的发布，当一个对象还没有构造完成时，就使它被其他线程所见
+
+事例代码：
+
+    com.ferry.concurrency.example.publish.Escape
+    com.ferry.concurrency.example.publish.UnsafePublish
+##3.2 安全发布
+
+事例代码：
+
+    com.ferry.concurrency.example.singleton.SingletonExample
 
 #第四章 线程安全策略
 ##4.1 不可变对象
-##4.2 线程封闭
+    对象创建以后其状态就不能改变
+    对象所有域都是final类型
+    对象是正确创建的（在正确创建期间，this引用没有溢出）
+   1.final 类、方法、变量
 
+   2.Collections.unmodifiableMap(map) //不可被修改的  Collections
+   
+   3.ImmutableList.of(1, 2, 3, args)  //不可被修改的  Guava
+事例代码：
+   
+    com.ferry.concurrency.example.immutable.ImmutableExample
+       
+##4.2 线程封闭
+    
+   **堆栈封闭**：局部变量，无并发问题
+    
+   **ThreadLocal线程封闭**：
+
+事例代码：
+    
+    com.ferry.concurrency.example.threadLocal.RequestHolder
+    
+    
+##4.3 线程不安全的类
+
+    1. SpringBuilder (不安全)    SpringBuffer(安全的)
+    2. SimpleDateFormat  (不安全的 最好局部变量使用)  DateTimeFormat(joda.time包 安全的)
+    3. List、HashSet、HashMap 等集合(不安全) Collections
+    4. 先检查再执行
+    
+##4.4 同步容器
+
+    1. Vector,Stack
+    2. HashTable(key,value不能为null)
+    3. Collctions.synchronizedXXX(List,Set,Map)
+
+事例代码：
+    
+    com.ferry.concurrency.example.syncContainer.VectorExample
+    com.ferry.concurrency.example.syncContainer.HashTableExample
+    com.ferry.concurrency.example.syncContainer.CollectionsExample    
+##4.5 并发容器
+    1.ArrayList -> CopyOnWriteArrayList  消耗内存 不能用于实时 （读写分离）
+    2.HashSet、TreeSet -> CopyOnWriteArraySet、ConcurrentSkipListSet (不能有null)
+    3.HashMap、TreeMap -> ConcurrentHashMap、ConcurrentSkipListMap
+     
+事例代码：
+
+    com.ferry.concurrency.example.concurrent.CopyOnWriteArrayListExample
 #第五章 J.U.C之AQS
-##5.1CountDownLatch
+##5.1 CountDownLatch
 **`CountdownLatch`**
 
 事例代码：
 
-    com.ferry.concurrency.example.aqs.CountDownLatchExample1
-    com.ferry.concurrency.example.aqs.CountDownLatchExample2
-
+    com.ferry.concurrency.example.aqs.CountDownLatchExample
+##5.2 Semapphore
 **`Semapphore`**
 
 事例代码：
 
-    com.ferry.concurrency.example.aqs.SemaphoreExample1  
-    com.ferry.concurrency.example.aqs.SemaphoreExample2  
-    com.ferry.concurrency.example.aqs.SemaphoreExample3  
-    com.ferry.concurrency.example.aqs.SemaphoreExample4
-     
+    com.ferry.concurrency.example.aqs.SemaphoreExample
+##5.3 CyclicBarrier    
 **`CyclicBarrier`**
 
 事例代码：
   
-    com.ferry.concurrency.example.aqs.CyclicBarrierExample1
-    com.ferry.concurrency.example.aqs.CyclicBarrierExample2
+    com.ferry.concurrency.example.aqs.CyclicBarrierExample
 
 小总结：
    >1）CountDownLatch和CyclicBarrier都能够实现线程之间的等待，只不过它们侧重点不同：
@@ -482,7 +552,7 @@ public interface BlockingQueue<E> extends Queue<E> {
 ```
 
 #第七章 线程调度-线程池
-
+##7.1 常用线程池
 - Executors.newCachedThreadPool();可缓存的线程池，该线程池中没有核心线程，非核心线程的数量为Integer.max_value，就是无限大，当有需要时创建线程来执行任务，没有需要时回收线程，适用于耗时少，任务量大的情况。
 - Executors.newFixedThreadPool(3);定长的线程池，有核心线程，核心线程的即为最大的线程数量，没有非核心线程
 - Executors.newSingleThreadExecutor();只有一条线程来执行任务，适用于有顺序的任务的应用场景。
@@ -534,7 +604,7 @@ public ThreadPoolExecutor(
 shutdown和submit，两者都用来关闭线程池，但是后者有一个结果返回
 shutdownNow 立即关闭线程池
 
-###线程池的原理
+##7.2 线程池的原理
 ![Alt text](./image/20180525151158224.png)
 ```
     public void execute(Runnable command) {
@@ -582,7 +652,7 @@ shutdownNow 立即关闭线程池
 
 3.如果无法入队列，那么需要增加一个新工作线程，如果此操作失败，那么就意味着线程池已经 SHUTDOWN 或者已经饱和了，所以拒绝任务
 
-####addWorker()
+###addWorker()
 
 ```
 private boolean addWorker(Runnable firstTask, boolean core) {
@@ -664,7 +734,7 @@ private boolean addWorker(Runnable firstTask, boolean core) {
     return workerStarted;
 }
 ```
-####worker工作线程
+###worker工作线程
 ```
 inal void runWorker(Worker w) {
     // 获取当前线程
@@ -736,22 +806,8 @@ inal void runWorker(Worker w) {
 
 #第十四章 数据库分库分表与高可用手段
 
-
-###6.1 J.U.C之AQS-CountdownLatch
-
-
-
   
-###6.2 J.U.C之AQS-Semapphore
-
-
-
-  
-###6.3 J.U.C之AQS-CyclicBarrier
-
-
-    
-
+------------------------------------
 
 ###多线程并发最佳实践
 

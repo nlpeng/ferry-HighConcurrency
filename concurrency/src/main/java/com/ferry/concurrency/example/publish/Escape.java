@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NotThreadSafe
 @NotRecommed
-public class Escape {
+public class Escape {//对象溢出
 
     private int thisCanBeEscape = 0;
 
